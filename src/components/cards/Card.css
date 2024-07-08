@@ -1,0 +1,34 @@
+.card_container {
+    background: rgb(7,12,34);
+    background: radial-gradient(circle, rgba(7,12,34,1) 0%, rgba(2,132,199,1) 100%);
+    height: 90%;
+    width: 80%;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 10px var(--cinza); 
+}
+
+.card_container img {
+    width: 180px;
+    height: 130px;
+    border-radius: 5px;
+}
+
+.card_textos h1 {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: bold; 
+}
+
+.card_textos p {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: normal; 
+}
+
+.swiper-slide {
+    height: 100%;
+}

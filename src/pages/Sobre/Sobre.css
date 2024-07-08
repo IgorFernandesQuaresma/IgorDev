@@ -1,0 +1,145 @@
+
+
+.sobre__container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.sobre__container-foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.sobre__container-foto img {
+    width:60%;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px var(--cinza); 
+}
+
+.sobre__container-textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 60%;
+}
+
+.sobre__container-textos h1 {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: bold; 
+    font-size: 2.5rem;
+    color: var(--sub-subtitle-color)
+}
+
+.sobre__container-textos p {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: normal; 
+    font-size: 1.5rem;
+    color: var(--title-color);
+    line-height: 35px;
+}
+
+
+.projetos__container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.projetos__container-textos {
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: end;
+}
+
+.projetos__container-textos h1 {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: end;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: bold; 
+    font-size: 2.5rem;
+    color: var(--sub-subtitle-color)
+}
+
+.projetos__container-textos p {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: normal; 
+    font-size: 1.5rem;
+    color: var(--title-color);
+    line-height: 35px;
+}
+
+
+.projetos__container-cards {
+    width: 60%;
+    
+}
+
+
+@media (max-width: 640px) { 
+    .sobre__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre__container-foto {
+        width: 100%;
+    }
+
+    .sobre__container-foto img {
+    
+        height: 250px;
+
+    }
+    .sobre__container-textos {
+        width: 90%;
+    }
+
+    .sobre__container-textos h1 {
+        font-size: 2rem;
+
+    }
+
+    .sobre__container-textos p {
+        font-size: 1rem;
+        text-align: center;
+
+    }
+
+    .projetos__container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .projetos__container-textos {
+        width: 90%;
+    }
+
+    .projetos__container-textos h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .projetos__container-textos p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .projetos__container-cards {
+        width: 100%;
+    }
+}
