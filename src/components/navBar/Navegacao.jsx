@@ -27,7 +27,7 @@ function MenuFlutuante ({ navegacao, aparecerNavegacao }) {
                 </li>
 
                 <li>
-                    <Link to="/" className='navLink'>
+                    <Link to="/sobre" className='navLink'>
                         Sobre mim
                     </Link>
                 </li>

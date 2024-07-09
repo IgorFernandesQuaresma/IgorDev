@@ -60,14 +60,14 @@
     width: 40%;
     flex-direction: column;
     justify-content: center;
-    text-align: end;
+    text-align: start;
 }
 
 .projetos__container-textos h1 {
     width: 100%;
     flex-direction: column;
     justify-content: center;
-    text-align: end;
+    text-align: start;
     font-family: 'Poppins', sans-serif; 
     font-weight: bold; 
     font-size: 2.5rem;
@@ -88,6 +88,82 @@
     
 }
 
+.habilidades__container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;  
+}
+
+.habilidades__container-textos {
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+}
+
+.habilidades__container-cards {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.habilidades__container h1 {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: bold; 
+    font-size: 2.5rem;
+    color: var(--sub-subtitle-color)
+}
+
+.habilidades__container p {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: normal; 
+    font-size: 1.5rem;
+    color: var(--title-color);
+    line-height: 35px;
+}
+
+
+.icon {
+    font-size: 5rem; 
+    color: var(--title-color); 
+    margin: 10px;  
+    transition: transform 0.3s ease, color 1s ease  
+}
+
+.icon:hover {
+    font-size: 5rem; 
+    color: var(--title-color); 
+    margin: 10px; 
+    transform: translateY(-10px); /* Levanta o ícone 10px para cima */
+    color: var(--sub-subtitle-color);   
+}
+
+.container-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 28%;
+    gap: 10px;
+}
+
+.container-icon  p {
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: bold; 
+    color: var(--title-color)
+}
 
 @media (max-width: 640px) { 
     .sobre__container {
@@ -142,4 +218,44 @@
     .projetos__container-cards {
         width: 100%;
     }
+
+
+
+
+
+
+    .habilidades__container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .habilidades__container-textos {
+        width: 90%;
+    }
+    
+    .habilidades__container-cards {
+        width: 100%;
+    }
+    
+    .habilidades__container h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    .habilidades__container p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    
+    .icon {
+        font-size: 3.5rem; 
+    }
+
+    .div-botao {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
 }

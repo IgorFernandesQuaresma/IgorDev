@@ -1,16 +1,17 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import 'swiper/swiper-bundle.css';
 import CardProjetos from '../../components/cards/Card'
 import projetos from '../../data/projetos.json'
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Pagination, Autoplay } from 'swiper/modules';
 import './Carrossel.css'
 
 
 const Carrossel = () => {
     return (
         <Swiper
-            modules={[Pagination]}
+            modules={[Pagination, Autoplay]}
             pagination={{ clickable: true }}  
             navigation={true} 
             autoplay={{ delay: 3000 }}  
