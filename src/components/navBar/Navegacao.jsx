@@ -21,7 +21,7 @@ function MenuFlutuante ({ navegacao, aparecerNavegacao }) {
                 </li>
 
                 <li>
-                    <Link to="/" className='navLink'>
+                    <Link to="/servicos" className='navLink'>
                         Serviços
                     </Link>
                 </li>
@@ -32,11 +32,6 @@ function MenuFlutuante ({ navegacao, aparecerNavegacao }) {
                     </Link>
                 </li>
 
-                <li>
-                    <Link to="/" className='navLink'>
-                        Início
-                    </Link>
-                </li>
             </ul>
         </div>
     ) 

@@ -15,7 +15,6 @@ function AppRoutes ( ) {
                         <Route path="/" element={<Home/>} />
                         <Route path="/sobre" element={<Sobre/>} />
                         <Route path="/servicos" element={<Servicos/>} />
-                        
                     </Routes>
                     <Footer/>
             </BrowserRouter>

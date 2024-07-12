@@ -3,6 +3,7 @@ import './NavBar.css'
 import { List} from 'phosphor-react';
 import logo from '../../assets/logo.png'
 import MenuFlutuante from './Navegacao';
+import { Link } from "react-router-dom";
 
 
 
@@ -25,9 +26,12 @@ function NavBar() {
 
         <MenuFlutuante navegacao={navegacao} aparecerNavegacao={aparecerNavegacao} />
             <nav className="navBar">
-                <div className="navBar_icons">
-                    <img src={logo} alt="Logo" className='logo' />
-                </div>
+            <Link to="/" className='navLink'>
+                    <div className="navBar_icons">
+                            <img src={logo} alt="Logo" className='logo' />
+                    </div>
+            </Link>
+                
 
 
                 <div className="navBar_icons">

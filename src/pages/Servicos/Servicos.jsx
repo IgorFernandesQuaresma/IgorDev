@@ -6,35 +6,42 @@ function Servicos () {
         <>
             <section className="container__servicos">
                 
-                        <h1>Como euconsigo te ajudar?</h1>
+                        <h1>Como eu consigo te ajudar?</h1>
+
+                    <div className="container__servicos_cards">
 
                         <div className="container__servicos-card">
-                            <FontAwesomeIcon icon={faCode} />
+                            <FontAwesomeIcon icon={faCode} className='icon_sobre' />
                             <h2>Sites instucionais</h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam sit amet asperiores blanditiis commodi laborum aperiam, quo soluta assumenda repellat iure similique voluptatem impedit ipsa! Labore voluptatibus itaque veritatis veniam?</p>
+                            <p>Soluções unicas, totalmente adaptadas para a necessidade do seu negócio</p>
                         </div>
 
 
                         <div className="container__servicos-card">
-                            <FontAwesomeIcon icon={faCartShopping} />
+                            <FontAwesomeIcon icon={faCartShopping} className='icon_sobre'/>
+                            <h2>Ecommerces</h2>
+                            <p>Sua operação esta crescendo e você quer uma loja que traga confiança aos seus clientes?</p>
+                        </div>
+
+                        <div className="container__servicos-card">
+                            <FontAwesomeIcon icon={faMobile} className='icon_sobre' />
                             <h2>Landing Pages</h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam sit amet asperiores blanditiis commodi laborum aperiam, quo soluta assumenda repellat iure similique voluptatem impedit ipsa! Labore voluptatibus itaque veritatis veniam?</p>
+                            <p>Precisa de uma página focada em um serviço ou produto, essa é a melhor solução</p>
                         </div>
 
                         <div className="container__servicos-card">
-                            <FontAwesomeIcon icon={faMobile} />
-                            <h2>Landing Pages</h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam sit amet asperiores blanditiis commodi laborum aperiam, quo soluta assumenda repellat iure similique voluptatem impedit ipsa! Labore voluptatibus itaque veritatis veniam?</p>
-                        </div>
-
-                        <div className="container__servicos-card">
-                            <FontAwesomeIcon icon={faLightbulb} />  
+                            <FontAwesomeIcon icon={faLightbulb} className='icon_sobre' />  
                             <h2>Suporte</h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam sit amet asperiores blanditiis commodi laborum aperiam, quo soluta assumenda repellat iure similique voluptatem impedit ipsa! Labore voluptatibus itaque veritatis veniam?</p>
-                        </div>         
+                            <p>Ja possui um projeto e precisa de manutenção? Eu também posso te ajudar</p>
+                        </div> 
+
+                        </div>        
             </section>
 
             <section class="timeline">
+
+                <h1>Seu projeto pronto em X steps</h1>
+
                 <div class="container left">
                     <div class="content">
                         <h2>Data 1</h2>
