@@ -32,6 +32,12 @@ function MenuFlutuante ({ navegacao, aparecerNavegacao }) {
                     </Link>
                 </li>
 
+                <li>
+                    <Link to="/contato" className='navLink'>
+                        Contato
+                    </Link>
+                </li>
+
             </ul>
         </div>
     ) 

@@ -4,6 +4,7 @@ import NavBar from "../components/navBar/NavBar";
 import Sobre from "../pages/Sobre/Sobre";
 import Footer from "../components/footer/Footer"
 import Servicos from "../pages/Servicos/Servicos";
+import Contato from "../pages/Contato/Contato";
 
 
 function AppRoutes ( ) {
@@ -15,6 +16,7 @@ function AppRoutes ( ) {
                         <Route path="/" element={<Home/>} />
                         <Route path="/sobre" element={<Sobre/>} />
                         <Route path="/servicos" element={<Servicos/>} />
+                        <Route path="/contato" element={<Contato/>} />
                     </Routes>
                     <Footer/>
             </BrowserRouter>
