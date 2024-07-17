@@ -88,6 +88,20 @@
     border-radius: 6px;
 }
 
+.content h2 {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: bold; 
+    font-size: 2rem;
+    color: var(--sub-subtitle-color)
+}
+
+.content p {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: normal; 
+    font-size: 1.5rem;
+    color: var(--title-color)
+}
+
 
 .container__servicos {
     display: flex;
@@ -146,8 +160,8 @@
 
 
 .container__servicos-card p {
-    font-family: 'Poppins', sans-serif; 
-    font-weight: bold; 
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: normal; 
     font-size: 1rem;
     color: var(--title-color)
 }
@@ -162,8 +176,59 @@
 
 
 @media screen and (max-width: 650px) {
+
+
+    .container__servicos {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    
+    }
+
+    .container__servicos h1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center; 
+        font-size: 2rem;
+        width: 90%;
+    
+    }
+    
+    .container__servicos_cards {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .container__servicos-card {
+        width: 70%;
+        gap: 8px;
+    }
+
+    .container__servicos-card:hover{
+        width: 90%;
+    }
+
+    .container__servicos-card h2 {
+        font-size: 1.5rem;
+    }
+
+    .timeline {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .timeline h1 {
+        font-size: 2rem;
+        width: 90%;
+        text-align: center;
+    
+    }
+
     .timeline::after {
         left: 31px;
+        top: 150px;
     }
 
     .container {
@@ -172,11 +237,19 @@
         padding-right: 25px;
     }
 
+    .content h2 {
+        font-size: 1.5rem;
+    }
+
+    .content p {
+        font-size: 1rem;
+    }
+
     .container::before {
         left: 60px;
-        border: medium solid #00bfff;
+        border: medium solid var(--sub-subtitle-color);
         border-width: 10px 10px 10px 0;
-        border-color: transparent #00bfff transparent transparent;
+        border-color: transparent var(--sub-subtitle-color) transparent transparent;
     }
 
     .left::after, .right::after {

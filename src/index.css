@@ -33,6 +33,22 @@ body {
   --particle-color: rgb(56, 56, 56);
 }
 
+::-webkit-scrollbar {
+  width: 8px; 
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--sub-subtitle-color); 
+  border-radius: 4px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: darken(var(--sub-subtitle-color), 10%); 
+}
 
 body {
   background-color: var(--background-color);

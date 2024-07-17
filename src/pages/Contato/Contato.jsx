@@ -1,8 +1,23 @@
 import './Contato.css';
-import React, { useRef } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
+import { buscar } from '../../service/Service'
 
     export const Contato = () => {
+
+        const [dados, setDados] = useState(null);
+
+        useEffect(() => {
+            const fetchData = async () => {
+                await buscar('/apod', setDados);
+            };
+    
+            fetchData();
+        }, []);
+
+
+        
+
         const form = useRef();
     
         const sendEmail = (e) => {
@@ -26,6 +41,8 @@ import emailjs from '@emailjs/browser';
 
 
     return (
+<>
+
         <div className="form-container">
             <h2>Envie seu Projeto</h2>
             <form ref={form} onSubmit={sendEmail}>
@@ -38,6 +55,8 @@ import emailjs from '@emailjs/browser';
             <input type="submit" value="Send" />
             </form>
     </div>
+
+</>
     )
 }
 
