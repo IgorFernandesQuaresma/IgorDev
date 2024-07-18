@@ -18,7 +18,9 @@ function Sobre () {
 
             <div  className="sobre__container-textos">
                 <h1>Um pouco sobre mim</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ex labore impedit omnis! Facere fugit praesentium tempora doloribus quod pariatur repellendus deleniti dolorum distinctio ipsa dolor maxime ut, cum aliquid!</p>
+                <p>Desenvolvedor full stack com sólida experiência em tecnologias como JavaScript, HTML, CSS, TypeScript, MySQL, Bootstrap, Scss, Node, React e Metodologias Ágeis. 
+                    Meu objetivo é te entregar o melhor projeto no menor tempo possivel
+                </p>
                 <div className='div-botao'>
                 <MyButton href = 'https://api.whatsapp.com/send?phone=5511997710780&text=Ola%20eu%20vim%20pelo%20teu%20site,%20e%20gostaria%20de%20um%20or%C3%A7amento' 
                     texto = 'Fale comigo'/>
@@ -30,7 +32,7 @@ function Sobre () {
 
             <div  className="projetos__container-textos">
                 <h1>Meus Projetos</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ex labore impedit omnis! Facere fugit praesentium tempora doloribus quod pariatur repellendus deleniti dolorum distinctio ipsa dolor maxime ut, cum aliquid!</p>
+                <p>Abaixo você pode ver um pouquinho do que eu ja realizei</p>
                 
             </div>
 
@@ -44,7 +46,7 @@ function Sobre () {
 
             <div  className="habilidades__container-textos">
                 <h1>Minhas Habilidades</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ex labore impedit omnis! Facere fugit praesentium tempora doloribus quod pariatur repellendus deleniti dolorum distinctio ipsa dolor maxime ut, cum aliquid!</p>
+                <p>Posso te ajuar com as seguintes tecnologias: HTML, CSS, Bootstrap, Scss, Node.js, MySQL, JavaScript, React, Nest.js e WordPress</p>
                 <div className='div-botao'>
                 <MyButton href = 'https://api.whatsapp.com/send?phone=5511997710780&text=Ola%20eu%20vim%20pelo%20teu%20site,%20e%20gostaria%20de%20um%20or%C3%A7amento' 
                     texto = 'Fale comigo'/>

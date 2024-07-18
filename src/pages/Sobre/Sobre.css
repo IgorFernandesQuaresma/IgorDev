@@ -17,7 +17,7 @@
 }
 
 .sobre__container-foto img {
-    width:60%;
+    width:50%;
     height: 350px;
     border-radius: 15px;
     box-shadow: 3px 3px 10px var(--cinza); 
@@ -176,8 +176,8 @@
     }
 
     .sobre__container-foto img {
-    
-        height: 250px;
+        
+        height: 200px;
 
     }
     .sobre__container-textos {
