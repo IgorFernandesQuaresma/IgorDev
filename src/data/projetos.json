@@ -1,49 +1,31 @@
 [
     {
-        "nome": "João Silva",
-        "descricao": "Desenvolvedor Full Stack.",
-        "foto": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/tsah7c9evnal289z5fig/IMG%20Worlds%20of%20Adventure%20Admission%20Ticket%20in%20Dubai%20-%20Klook.jpg"
+        "nome": "Cleanepel",
+        "descricao": "Empresa de higienização de estofados localizada em Poto-PT. Projeto institucional desenvolvido em Worldpress.",
+        "foto": "https://ik.imagekit.io/igordev/Projetos%20Finalizados/2.png?updatedAt=1721842273166"
     },
 
     {
-        "nome": "João Silva",
-        "descricao": "Desenvolvedor Full Stack.",
-        "foto": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/tsah7c9evnal289z5fig/IMG%20Worlds%20of%20Adventure%20Admission%20Ticket%20in%20Dubai%20-%20Klook.jpg"
+        "nome": "Vtex",
+        "descricao": "Ecommerce desenvolvido em React, projeto foi desenvolvido como prestador de serviços para uma agencia.",
+        "foto": "https://ik.imagekit.io/igordev/Projetos%20Finalizados/4.png?updatedAt=1721842273057"
     },
 
     {
-        "nome": "João Silva",
-        "descricao": "Desenvolvedor Full Stack.",
-        "foto": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/tsah7c9evnal289z5fig/IMG%20Worlds%20of%20Adventure%20Admission%20Ticket%20in%20Dubai%20-%20Klook.jpg"
+        "nome": "CodeAxis",
+        "descricao": "Plataforma de curso online, desenvolvido de ponta a ponta. Projeto desenvolvido com Nest.js e React.js ",
+        "foto": "https://ik.imagekit.io/igordev/Projetos%20Finalizados/1.png?updatedAt=1721842272995"
     },
 
     {
-        "nome": "João Silva",
-        "descricao": "Desenvolvedor Full Stack.",
-        "foto": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/tsah7c9evnal289z5fig/IMG%20Worlds%20of%20Adventure%20Admission%20Ticket%20in%20Dubai%20-%20Klook.jpg"
+        "nome": "O corpo arte",
+        "descricao": "Institucional desenvolvido para uma escola de dança em São Paulo. Plataforma desenvolvida em wordpress.",
+        "foto": "https://ik.imagekit.io/igordev/Projetos%20Finalizados/5.png?updatedAt=1721842272839"
     },
 
     {
-        "nome": "João Silva",
-        "descricao": "Desenvolvedor Full Stack.",
-        "foto": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/tsah7c9evnal289z5fig/IMG%20Worlds%20of%20Adventure%20Admission%20Ticket%20in%20Dubai%20-%20Klook.jpg"
-    },
-
-    {
-        "nome": "João Silva",
-        "descricao": "Desenvolvedor Full Stack.",
-        "foto": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/tsah7c9evnal289z5fig/IMG%20Worlds%20of%20Adventure%20Admission%20Ticket%20in%20Dubai%20-%20Klook.jpg"
-    },
-
-    {
-        "nome": "João Silva",
-        "descricao": "Desenvolvedor Full Stack.",
-        "foto": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/tsah7c9evnal289z5fig/IMG%20Worlds%20of%20Adventure%20Admission%20Ticket%20in%20Dubai%20-%20Klook.jpg"
-    },
-
-    {
-        "nome": "João Silva",
-        "descricao": "Desenvolvedor Full Stack.",
-        "foto": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/tsah7c9evnal289z5fig/IMG%20Worlds%20of%20Adventure%20Admission%20Ticket%20in%20Dubai%20-%20Klook.jpg"
+        "nome": "Site pessoal",
+        "descricao": "Projeto pessoal. Desenvolvido 100% com JavaScript, Html e Css vanilla, como meios de estudo.",
+        "foto": "https://ik.imagekit.io/igordev/Projetos%20Finalizados/3.png?updatedAt=1721842272397"
     }
 ]

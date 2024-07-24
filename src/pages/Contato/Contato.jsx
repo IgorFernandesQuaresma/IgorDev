@@ -45,7 +45,7 @@ import { buscar } from '../../service/Service'
         <section className='container__contato'>
             <div className="container__contato-textos">
                     <h1>Entre em contato comigo</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora delectus, natus fugit deserunt pariatur consectetur ea quae nobis nulla doloremque porro voluptatibus temporibus exercitationem provident repudiandae nesciunt autem, tempore repellat?</p>
+                    <p>Em até 24 horas, retornarei seu contato para entendermos juntos como posso atendê-lo melhor.</p>
             </div>
 
         <div className="form-container">

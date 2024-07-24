@@ -32,7 +32,7 @@ function Sobre () {
 
             <div  className="projetos__container-textos">
                 <h1>Meus Projetos</h1>
-                <p>Abaixo você pode ver um pouquinho do que eu ja realizei</p>
+                <p>Aqui você pode ver um pouquinho do que eu ja realizei</p>
                 
             </div>
 

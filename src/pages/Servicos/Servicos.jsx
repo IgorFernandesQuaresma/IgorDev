@@ -45,34 +45,34 @@ function Servicos () {
                 <div class="container left">
                     <div class="content">
                         <h2>Fechamento</h2>
-                        <p>Texto do lado esquerdo</p>
+                        <p>Depois de entendermos juntos seu projeto, apresentarei uma proposta</p>
                     </div>
                 </div>
                 <div class="container right">
                     <div class="content">
                         <h2>Planejamento</h2>
-                        <p>Texto do lado direito</p>
+                        <p>Em até 24h após o fechamento da proposta, apresentarei o planejamento dos nossos próximos passos</p>
                     </div>
                 </div>
 
                 <div class="container left">
                     <div class="content">
                         <h2>Desenvolvimento</h2>
-                        <p>Texto do lado esquerdo</p>
+                        <p>Com todos os itens apontados no planejamento em mãos iniciarei o desenvolvimento do seu projeto</p>
                     </div>
                 </div>
 
                 <div class="container right">
                     <div class="content">
                         <h2>Entrega</h2>
-                        <p>Texto do lado direito</p>
+                        <p>Prezamos pela entrega sempre dentro do prazo e muito bem documentada</p>
                     </div>
                 </div>
 
                 <div class="container left">
                     <div class="content">
                         <h2>Manutenção</h2>
-                        <p>Texto do lado esquerdo</p>
+                        <p>Após o serviço entregue, ficamos a disposição para eventuais manutenções conforme descrito na proposta</p>
                     </div>
                 </div>
 
