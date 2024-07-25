@@ -64,16 +64,33 @@
     border-radius: 5px;
     
 }
-
+.container_btn {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
 .btn_form {
     background-color: var(--sub-subtitle-color);
     transition: background-color 0.3s ease, border-color 0.3s ease;
     color: var(--title-color);
+    width: 80%;
+    height: 50px;
+    border: 1px solid var(--cinza);
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .btn_form:hover {
-    background-color: var(--title-color);
-    color: var(--sub-subtitle-color);
+    background-color: var(--particle-color);
+    color: var(--cinza);
 }
 
 @media (max-width: 640px) { 

@@ -1,11 +1,18 @@
 import './Contato.css';
 import React, { useRef, useState, useEffect } from 'react';
+import {useNavigate } from "react-router-dom"
 import emailjs from '@emailjs/browser';
 import { buscar } from '../../service/Service'
+import { RotatingLines } from 'react-loader-spinner';
+import { ToastAlert } from '../../ultil/ToastAlert';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
     export const Contato = () => {
 
         const [dados, setDados] = useState(null);
+        const [isLoading, setIsLoading] = useState(false);
+        const navigate = useNavigate()
 
         useEffect(() => {
             const fetchData = async () => {
@@ -17,27 +24,34 @@ import { buscar } from '../../service/Service'
 
 
         
-
+        
         const form = useRef();
     
         const sendEmail = (e) => {
-        e.preventDefault();
-    
-        emailjs
-            .sendForm('service_gabvw5w', 'template_8c6hind', form.current, {
-            publicKey: 'JXzbkwZAtMJ6BvjCU',
-            })
-            .then(
-            () => {
-                console.log('SUCCESS!');
-            },
-            (error) => {
-                console.log('FAILED...', error.text);
-            },
-            );
-        };
+            e.preventDefault();
+            setIsLoading(true);
+        
+                emailjs
+                .sendForm('service_gabvw5w', 'template_8c6hind', form.current, 'JXzbkwZAtMJ6BvjCU')
+                .then(
+                    (result) => {
+                    console.log('Email enviado com sucesso:', result.text);
+                    ToastAlert('Email enviado com sucesso', 'sucesso');
+                    setIsLoading(false);
+                    setTimeout(() => {
+                        navigate("/");
+                      }, 2000);
+                    console.log(isLoading)
+                    },
+                    (error) => {
+                    console.error('Erro ao enviar email:', error.text);
+                    ToastAlert('Não conseguimos enviar o email', 'erro');
+                    setIsLoading(false);
+                    }
+                );
+            };
 
-    
+        
 
 
     return (
@@ -57,10 +71,25 @@ import { buscar } from '../../service/Service'
             <input type="email" name="user_email" />
             <label>Detalhes do projeto</label>
             <textarea name="message" />
-            <input className='btn_form' type="submit" value="Enviar" />
+
+            <div className='container_btn'>
+            <button className='btn_form' type="submit" disabled={isLoading}>
+              {isLoading ? (
+                <RotatingLines
+                  strokeColor="white"
+                  strokeWidth="5"
+                  animationDuration="0.75"
+                  width="20"
+                  visible={true}
+                />
+              ) : (
+                <span>Enviar</span>
+              )}
+            </button>
+            </div>
             </form>
     </div>
-
+    <ToastContainer />
     </section>
 
 </>

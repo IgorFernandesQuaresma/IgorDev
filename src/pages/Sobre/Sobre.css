@@ -1,4 +1,35 @@
+@keyframes slideInFromBottom {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
 
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(0);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(-100%);
+      opacity: 1;
+    }
+  }
 
 .sobre__container {
     display: flex;
@@ -29,6 +60,7 @@
     justify-content: center;
     align-items: start;
     width: 60%;
+    animation: slideInFromRight 1s ease-out forwards;
 }
 
 .sobre__container-textos h1 {
@@ -87,6 +119,11 @@
     width: 60%;
     height: auto;
     
+    
+}
+
+.swiper-slide {
+    animation: slideInFromBottom 2s ease-out forwards;
 }
 
 .habilidades__container {
@@ -104,6 +141,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: start;
+    animation: slideInFromLeft 2s ease-out forwards;
 }
 
 .habilidades__container-cards {
