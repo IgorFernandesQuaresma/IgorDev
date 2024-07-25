@@ -12,14 +12,9 @@ function NavBar() {
     const [ navegacao, setNavegacao ] = useState(false);
 
 
-    function aparecerNavegacao () {
-        if (navegacao == false) {
-            setNavegacao (navegacao == true) 
-            
-        } setNavegacao (navegacao == false) 
-
-        console.log(navegacao)
-    }
+        function aparecerNavegacao () {
+            setNavegacao(!navegacao);
+        }
 
     return (
         <>

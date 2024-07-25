@@ -15,25 +15,25 @@ function MenuFlutuante ({ navegacao, aparecerNavegacao }) {
             <XCircle onClick={aparecerNavegacao} size={38} color='#FFFF' className="close-icon" />
             <ul className='navItens'>
                 <li>
-                    <Link to="/" className='navLink'>
+                    <Link onClick={aparecerNavegacao} to="/" className='navLink'>
                         Início
                     </Link>
                 </li>
 
                 <li>
-                    <Link to="/servicos" className='navLink'>
+                    <Link onClick={aparecerNavegacao} to="/servicos" className='navLink'>
                         Serviços
                     </Link>
                 </li>
 
                 <li>
-                    <Link to="/sobre" className='navLink'>
+                    <Link onClick={aparecerNavegacao} to="/sobre" className='navLink'>
                         Sobre mim
                     </Link>
                 </li>
 
                 <li>
-                    <Link to="/contato" className='navLink'>
+                    <Link onClick={aparecerNavegacao} to="/contato" className='navLink'>
                         Contato
                     </Link>
                 </li>
