@@ -1,4 +1,4 @@
-import perfil from '../../assets/perfil.jpg'
+import perfil from '../../assets/perfil.jpeg'
 import './Sobre.css'
 import Carrossel from '../../components/carrossel/Carrossel'
 import MyButton from '../../components/Btn'
