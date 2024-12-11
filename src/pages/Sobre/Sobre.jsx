@@ -19,7 +19,7 @@ function Sobre () {
             <div  className="sobre__container-textos">
                 <h1>Um pouco sobre mim</h1>
                 <p>Desenvolvedor full stack com sólida experiência em tecnologias como JavaScript, HTML, CSS, TypeScript, MySQL, Bootstrap, Scss, Node, React e Metodologias Ágeis. 
-                    Meu objetivo é te entregar o melhor projeto no menor tempo possivel
+                    Meu objetivo é te entregar o melhor projeto no menor tempo possivel.
                 </p>
                 <div className='div-botao'>
                 <MyButton href = 'https://api.whatsapp.com/send?phone=5511997710780&text=Ola%20eu%20vim%20pelo%20teu%20site,%20e%20gostaria%20de%20um%20or%C3%A7amento' 
@@ -32,7 +32,7 @@ function Sobre () {
 
             <div  className="projetos__container-textos">
                 <h1>Meus Projetos</h1>
-                <p>Aqui você pode ver um pouquinho do que eu ja realizei</p>
+                <p>Projetos realizados</p>
                 
             </div>
 
